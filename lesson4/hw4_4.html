@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw4_4</title>
+    <link rel="stylesheet" href="hw4_4.css">
+</head>
+
+<body>
+
+    <form>
+
+        <div class="survey">
+            <h1>
+                Заповніть поля анкети
+            </h1>
+        </div>
+
+        <section class="fullname">
+            <label> Ваше ім'я: <input type="text" name="fullName" class="field" placeholder="Full name"
+                    required></label>
+            <label> Ваше прізвище: <input type="text" name="userName" class="field" placeholder="Username"
+                    required></label>
+        </section>
+
+        <section class="gender">
+            <p>Ваша стать:</p>
+            <label> Жіноча<input type="radio" name="gender_type" value="female"> </label>
+            <label> Чоловіча<input type="radio" name="gender_type" value="male"> </label>
+        </section>
+
+        <div class="connection">
+            <h2>
+                Послугами якої сотової компанії ви користуєтеся:
+            </h2>
+        </div>
+
+        <section class="operators">
+            <label> <input type="checkbox" name="operator_type" value="KyivStar"> KyivStar </label>
+            <label> <input type="checkbox" name="operator_type" value="MTC"> MTC </label>
+            <label> <input type="checkbox" name="operator_type" value="Life"> Life:) </label>
+            <label> <input type="checkbox" name="operator_type" value="PeopleNet"> PeopleNet </label>
+            <label> <input type="checkbox" name="operator_type" value="Utel"> Utel </label>
+        </section>
+
+        <div class="buttons">
+            <input type="submit" id="submitButton" value="Надіслати анкету">
+            <input type="reset" id="resetButton" value="Очистити бланк">
+        </div>
+    </form>
+
+</body>
+
+</html>

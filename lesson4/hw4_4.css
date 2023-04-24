@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    background-color:  rgb(11, 198, 198);
+}
+
+form {
+    width: 30vw;
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}

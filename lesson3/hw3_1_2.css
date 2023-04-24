@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    
+}
+
+section {
+    height: 80vh;
+    width: 33.333333vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: #B8B3B3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: #A9A8A8;
+}
+
+.center {
+    background-color: #817B7B;
+}
+
+.right {
+    background-color: #544F4F;
+}
