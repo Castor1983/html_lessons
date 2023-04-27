@@ -11,7 +11,9 @@ body {
 
 
 }
-
+.top {
+    width: 100vw;
+}
 .a {
     width: 100vw;
     height: 33vh;
@@ -20,18 +22,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin-top: 3px;
 }
 .bcdef {
-    width: 100vw;
+    width: 100%;
     height: 66vh;
     display: flex;
+
 }
 .bcde {
     width: 75%;
     height: 100%;
     display: flex;
     flex-direction: column;
+
 }
 .cde {
     width: 100%;
@@ -48,7 +52,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin-top: 3px;
 }
 .bottom {
     width: 33%;
@@ -58,7 +62,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin-top: 3px;
 }
 .f {
     width: 25%;
@@ -68,6 +72,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
+    margin-top: 3px;
 }
 
