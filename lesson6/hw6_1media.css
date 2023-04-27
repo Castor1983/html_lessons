@@ -1,0 +1,40 @@
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .bcde {
+        width: 100%;
+        height: 75%;
+    }
+
+    .bcdef {
+        flex-direction: column;
+        height: 75%;
+    }
+
+    .a {
+        height: 15%;
+        margin-top: 2%;
+    }
+
+
+    .b {
+        width: 100%;
+        height: 75%;
+        margin-top: 2%;
+    }
+
+    .f {
+        width: 100%;
+        height: 20%;
+        margin-top: 2%;
+    }
+
+    cde {
+        width: 100%;
+        height: 25%;
+    }
+
+    .bottom {
+        width: 20%;
+        height: 80%;
+        margin-top: 2%;
+    }
+}
